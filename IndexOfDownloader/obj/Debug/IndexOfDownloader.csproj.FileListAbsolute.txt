@@ -1,0 +1,9 @@
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\bin\Debug\IndexOfDownloader.exe.config
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\bin\Debug\IndexOfDownloader.exe
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\bin\Debug\IndexOfDownloader.pdb
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\obj\Debug\IndexOfDownloader.csprojResolveAssemblyReference.cache
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\obj\Debug\IndexOfDownloader.Properties.Resources.resources
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\obj\Debug\IndexOfDownloader.csproj.GenerateResource.Cache
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\obj\Debug\IndexOfDownloader.exe
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\obj\Debug\IndexOfDownloader.pdb
+C:\Users\cwilson\Documents\Victoria\IndexOfDownloader\IndexOfDownloader\obj\Debug\IndexOfDownloader.MainControl.resources
