@@ -96,7 +96,14 @@ namespace IndexOfDownloader
             if (!string.IsNullOrWhiteSpace(tbUrl.Text) && (Uri.TryCreate(tbUrl.Text, UriKind.Absolute, out uriResult)
                 && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps)))
             {
-                downloadHandler();
+                if (!string.Equals(cbSearchExt.SelectedIndex.ToString(), "File Extension...", StringComparison.InvariantCultureIgnoreCase))
+                {
+                    downloadHandler();
+                }
+                else
+                {
+                    MessageBox.Show("Please enter or select a file extension from the list.");
+                }
             }
             else
             {
@@ -164,7 +171,7 @@ namespace IndexOfDownloader
         {
             if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Return)
             {
-                if (!string.Equals(cbSearchExt.SelectedIndex.ToString(), "Enter Search Term...", StringComparison.InvariantCultureIgnoreCase))
+                if (!string.Equals(cbSearchExt.SelectedIndex.ToString(), "File Extension...", StringComparison.InvariantCultureIgnoreCase))
                 {
                     if (!string.IsNullOrWhiteSpace(tbSearchTerm.Text))
                     {
@@ -198,7 +205,7 @@ namespace IndexOfDownloader
 
         private void cbSearchExt_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (string.Equals(cbSearchExt.SelectedIndex.ToString(), "Enter Search Term...", StringComparison.InvariantCultureIgnoreCase))
+            if (!string.Equals(cbSearchExt.SelectedIndex.ToString(), "File Extension...", StringComparison.InvariantCultureIgnoreCase))
             {
                 MessageBox.Show("Please enter or select a file extension from the list.");
             }
